@@ -1,0 +1,83 @@
+body p {
+  margin-bottom: 0.25rem;
+}
+body p:last-child {
+  margin: 0;
+}
+body button.btn {
+  background: #1d1160;
+  color: #fff;
+  border: 1px solid transparent;
+  transition: all 0.5s ease;
+}
+body button.btn:hover {
+  background: #1d1160;
+  color: #fff;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+body ul {
+  padding: 0;
+  margin: 1rem 0rem;
+}
+body ul li {
+  list-style-type: none;
+  padding: 0.5rem 0rem;
+  border-bottom: 0.125rem solid #1d1160;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: flex-end;
+  background: url(./images/nike.jpg);
+  background-size: cover;
+  background-position: 60% 50%;
+  padding-bottom: 20px;
+}
+body #root {
+  width: 100%;
+}
+body #dog-park .row {
+  padding: 1.25rem;
+  background: rgba(0, 120, 140, 0.95);
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  color: #fff !important;
+  max-height: 25rem;
+}
+body #dog-park .row.overflowY {
+  overflow-y: scroll;
+}
+body #dog-park .row#resultsHeader {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  background: unset;
+  border: unset;
+  overflow-y: unset;
+  max-height: unset;
+  padding: 1.25rem 0rem 0rem 0rem;
+}
+
+/*# sourceMappingURL=App.css.map */
